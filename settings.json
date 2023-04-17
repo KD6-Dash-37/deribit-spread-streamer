@@ -6,8 +6,8 @@
     ],
     "leg_a": "BTC-PERPETUAL",
     "leg_b": "BTC-30JUN23",
-    "rich": 100,
+    "rich": 220,
     "fair_value": 180,
     "cheap": 120,
-    "dirt_cheap": 100
+    "dirt_cheap": 80
 }

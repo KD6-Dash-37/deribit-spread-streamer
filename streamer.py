@@ -129,17 +129,17 @@ async def call_api(msg):
 
                     leg_a_bid = parsed_response["best_bid_price"]
                     leg_a_ask = parsed_response["best_ask_price"]
-                    # print(leg_a_bid)
 
                 elif parsed_response["instrument"] == leg_b:
+
                     leg_b_bid = parsed_response["best_bid_price"]
-                    # print(leg_b_bid)
                     leg_b_ask = parsed_response["best_ask_price"]
 
             except TypeError:
                 pass
 
             if all([leg_a_bid, leg_b_bid, leg_a_ask, leg_b_ask]):
+
                 bid_spread = leg_b_bid - leg_a_bid
                 ask_spread = leg_b_ask - leg_a_ask
 

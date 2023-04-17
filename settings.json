@@ -1,0 +1,13 @@
+{
+    "end_point": "wss://www.deribit.com/ws/api/v2",
+    "instruments": [
+        "BTC-PERPETUAL",
+        "BTC-30JUN23"
+    ],
+    "leg_a": "BTC-PERPETUAL",
+    "leg_b": "BTC-30JUN23",
+    "rich": 100,
+    "fair_value": 180,
+    "cheap": 120,
+    "dirt_cheap": 100
+}
